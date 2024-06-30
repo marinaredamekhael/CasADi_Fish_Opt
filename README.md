@@ -39,7 +39,7 @@ To run the simulations and explore the optimization results:
 
 ## CasADi
 CasADi stands for **"Computer Algebra System for Automatic Differentiation and Optimization."** It is an open-source software framework primarily designed for modeling, simulation, and optimization of complex dynamic systems. Developed in C++ with Python bindings, CasADi efficiently handles the computational demands of large-scale optimization problems.
-
+![image](https://github.com/marinaredamekhael/CasADi_Fish_Opt/blob/main/casadi/WhatsApp%20Image%202024-06-30%20at%2023.13.10.jpeg)
 ### Key Features and Capabilities
 
 #### Symbolic Framework
