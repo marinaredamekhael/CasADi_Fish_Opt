@@ -1,29 +1,34 @@
-# Fish Navigation in Turbulent Flow
+# Fish Navigation Optimization in Turbulent Flow Using CasADi
 
-This repository explores the optimization of fish navigation in turbulent flow using CasADi, a powerful tool for nonlinear optimization and algorithmic differentiation.
+![Fish Navigation](link_to_image)
 
-## Abstract
+## Table of Contents
+- [Introduction](#introduction)
+- [Background](#background)
+- [Methodology](#methodology)
+- [Results and Discussion](#results-and-discussion)
+- [Usage](#usage)
+- [CasADi](#CasADi)
+- [Conclusion](#Conclusion)
 
-Navigating in turbulent flow presents significant challenges for fish due to the complex interactions between biological behaviors and environmental dynamics. This project develops a mathematical model using CasADi's Python API to simulate and optimize fish movement in turbulent water. The optimization framework aims to maximize navigational efficiency, demonstrating CasADi's effectiveness in solving nonlinear control problems.
 
 ## Introduction
+This repository contains the implementation of an optimization framework using CasADi for fish navigation in turbulent flows. The project explores the application of CasADi's nonlinear optimization capabilities to simulate and optimize fish trajectories in dynamic fluid environments.
 
-Understanding how fish navigate in turbulent flows is crucial for various fields, including robotics and environmental sciences. Traditional models often oversimplify these interactions, while CasADi offers a robust platform to accurately model and optimize such complex dynamics.
+## Background
+Fish navigation in turbulent flows presents complex challenges due to the interaction between fluid dynamics and biological locomotion. Traditional approaches often rely on simplified models, whereas this project leverages CasADi to model and optimize fish trajectories more accurately.
 
 ## Methodology
-
-The methodology involves formulating fish navigation as a nonlinear optimization problem. Using CasADi, we define objective functions that minimize energy expenditure or maximize efficiency, subject to constraints derived from fish dynamics and environmental conditions. The integration of CasADi allows for the implementation of advanced optimization algorithms tailored for turbulent flow environments.
-
-## Implementation
-
-In this repository, you will find:
-- **Python Scripts:** Implementation of the mathematical model using CasADi's symbolic variables and functions.
-- **Simulation Results:** Visualizations and analyses of optimized fish trajectories under turbulent flow conditions.
-- **Documentation:** Detailed explanations and insights into the optimization process and CasADi usage.
+The methodology involves:
+- Formulating the dynamics of fish movement and turbulent flow using CasADi.
+- Implementing an optimization framework to find optimal fish trajectories.
+- Validating the results through numerical simulations and visualizations.
 
 ## Results and Discussion
-
-The results demonstrate that CasADi efficiently computes optimal navigation paths for fish in turbulent flows, offering insights into adaptive strategies and efficiency improvements. These findings contribute to both biological understanding and bio-inspired robotic systems.
+The results demonstrate:
+- Efficient and adaptive fish navigation paths optimized using CasADi.
+- Insights into the interaction between fish locomotion and turbulent flow dynamics.
+- Potential applications in bio-inspired robotics and environmental sciences.
 
 ## Usage
 
@@ -32,16 +37,46 @@ To run the simulations and explore the optimization results:
 2. Install required dependencies, including CasADi and Python libraries.
 3. Execute the Python scripts to visualize and analyze fish trajectories.
 
+## CasADi
+CasADi stands for **"Computer Algebra System for Automatic Differentiation and Optimization."** It is an open-source software framework primarily designed for modeling, simulation, and optimization of complex dynamic systems. Developed in C++ with Python bindings, CasADi efficiently handles the computational demands of large-scale optimization problems.
+
+### Key Features and Capabilities
+
+#### Symbolic Framework
+
+CasADi allows users to define symbolic variables, functions, and expressions, essential for accurately representing mathematical models in scientific computing and engineering applications.
+
+#### Automatic Differentiation (AD)
+
+CasADi supports automatic differentiation, enabling the computation of derivatives of functions. This feature is crucial for gradient-based optimization algorithms, automating the process of computing gradients numerically or symbolically.
+
+#### Nonlinear Optimization
+
+CasADi provides interfaces to various optimization solvers (e.g., IPOPT, APOPT) suitable for solving nonlinear programming (NLP) problems. Users can define objective functions, constraints, and decision variables, then efficiently solve them.
+
+#### Optimal Control
+
+For dynamic systems, CasADi supports optimal control formulations, handling differential equations, boundary conditions, and control constraints. This makes it suitable for trajectory optimization, model predictive control (MPC), and optimal parameter estimation.
+
+#### Multi-Platform Support
+
+CasADi is designed to work across different platforms (Windows, macOS, Linux) and integrates well with various programming languages, including Python and MATLAB.
+
+#### Integration with Other Tools
+
+CasADi can be integrated with other libraries and tools such as PyTorch for deep learning integration, enhancing its applicability in machine learning and scientific computing.
+
+### Typical Use Cases
+
+- **Engineering Design and Optimization:** Used extensively in engineering disciplines for optimizing designs, parameter estimation, and process control.
+  
+- **Robotics and Autonomous Systems:** Employed for trajectory planning, motion control, and sensor fusion applications in robotics.
+
+- **Biomedical Engineering:** Applied in modeling physiological systems, optimizing drug dosages, and designing medical devices.
+
+- **Research and Development:** Utilized by researchers for developing and testing new algorithms, exploring complex system dynamics, and conducting simulations.
+
 ## Conclusion
 
 This project highlights CasADi's capabilities in tackling complex dynamics of fish navigation in turbulent flows. By integrating advanced optimization techniques with realistic environmental models, we advance our understanding of biological locomotion and inspire innovations in robotics and environmental sciences.
 
-## References
-
-- Andersson, J. A., et al. (2019). CasADi: a software framework for nonlinear optimization and optimal control. Mathematical Programming Computation, 11, 1-36.
-- Tytell, E. D., & Lauder, G. V. (2008). Hydrodynamics of the escape response in bluegill sunfish, Lepomis macrochirus. Journal of Experimental Biology, 211(21), 3359-3369.
-- Salzmann, T., et al. (2023). Learning for CasADi: Data-driven Models in Numerical Optimization. arXiv preprint arXiv:2312.05873.
-
----
-
-Feel free to fork and modify this repository for your own research or educational purposes. Contributions and feedback are welcome!
