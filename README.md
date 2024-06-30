@@ -1,6 +1,6 @@
 # Fish Navigation Optimization in Turbulent Flow Using CasADi
 
-![Fish Navigation](link_to_image)
+![Fish Navigation](https://github.com/marinaredamekhael/CasADi_Fish_Opt/blob/main/anim.gif)
 
 ## Table of Contents
 - [Introduction](#introduction)
