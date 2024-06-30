@@ -33,7 +33,7 @@ The results demonstrate:
 ## Usage
 
 To run the simulations and explore the optimization results:
-1. Clone the repository: `git clone https://github.com/yourusername/fish-navigation-casadi.git`
+1. Clone the repository: `git clone https://github.com/marinaredamekhael/CasADi_Fish_Opt/tree/main`
 2. Install required dependencies, including CasADi and Python libraries.
 3. Execute the Python scripts to visualize and analyze fish trajectories.
 
